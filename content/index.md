@@ -1,3 +1,11 @@
-# My First Page
+---
+title: Asel
+seo:
+  title: Asel
+navigation:
+  title: Asel
+---
 
-Here is some content.
+# My homepage
+
+Here I describe myself.
