@@ -1,1 +1,0 @@
-import{C as o,D as n,E as a,d as l,e as p,h as d}from"./Bg5VpsxE.js";const r={class:"p-30"},i=o({__name:"blog",setup(c){const s=n("menuOpen");return a(s,e=>{document.body.style.overflow=e?"hidden":""}),(e,t)=>(p(),l("div",r,t[0]||(t[0]=[d("span",null,"This page will be displayed at the /blog route.",-1)])))}});export{i as default};

@@ -1,1 +1,0 @@
-import{C as n,D as a,E as o,d as r,h as p,e as d}from"./Bg5VpsxE.js";const l={class:"p-30"},c=n({__name:"resume",setup(u){const t=a("menuOpen");return o(t,e=>{document.body.style.overflow=e?"hidden":""}),(e,s)=>(d(),r("div",l,s[0]||(s[0]=[p("span",null,"This page will be displayed at the /resume route.",-1)])))}});export{c as default};

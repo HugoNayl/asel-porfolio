@@ -1,1 +1,0 @@
-import{C as s,D as n,E as a,d as p,h as l,e as r}from"./Bg5VpsxE.js";const d={class:"p-30"},u=s({__name:"portfolio",setup(i){const t=n("menuOpen");return a(t,e=>{document.body.style.overflow=e?"hidden":""}),(e,o)=>(r(),p("div",d,o[0]||(o[0]=[l("span",null,"This page will be displayed at the /portfolio route.",-1)])))}});export{u as default};
