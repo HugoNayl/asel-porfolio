@@ -1,4 +1,11 @@
 <script setup lang="ts">
+const { data: blog } = await useAsyncData(() => queryCollection('content').path('/').first())
+
+useSeoMeta({
+  title: blog.value?.title,
+  description: blog.value?.description
+})
+
 const menuOpen = useState('menuOpen')
 
 watch(menuOpen, (open) => {
@@ -7,7 +14,8 @@ watch(menuOpen, (open) => {
 </script>
 
 <template>
-  <div class="p-30">
-    <span>This page will be displayed at the /blog route.</span>
+  <div class="bg-amber-50 p-30 h-500">
+    <ContentRenderer v-if="blog" :value="blog" />
+    <div v-else>Home not found</div>
   </div>
 </template>
