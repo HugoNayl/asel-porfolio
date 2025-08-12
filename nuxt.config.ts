@@ -17,5 +17,6 @@ export default defineNuxtConfig({
     families: {
       Ultra: true
     }
-  }
+  },
+  site: { url: 'https://hugo-nayl-asel-porfolio.nuxt.space'}
 })
