@@ -1,0 +1,6 @@
+# START nuxt-robots (indexable)
+User-agent: *
+Disallow: 
+
+Sitemap: https://hugo-nayl-asel-porfolio.nuxt.space/sitemap.xml
+# END nuxt-robots

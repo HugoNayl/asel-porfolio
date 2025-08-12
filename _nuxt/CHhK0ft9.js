@@ -1,0 +1,1 @@
+import{C as s,D as a,E as o,d as c,h as p,e as d}from"./DZtrrklX.js";const l={class:"p-30"},i=s({__name:"contact",setup(r){const n=a("menuOpen");return o(n,e=>{document.body.style.overflow=e?"hidden":""}),(e,t)=>(d(),c("div",l,t[0]||(t[0]=[p("span",null,"This page will be displayed at the /contact route.",-1)])))}});export{i as default};
