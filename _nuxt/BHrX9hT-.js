@@ -1,1 +1,0 @@
-import{C as a,D as o,E as n,d as p,h as d,e as l}from"./DZtrrklX.js";const r={class:"p-30"},i=a({__name:"about",setup(u){const s=o("menuOpen");return n(s,e=>{document.body.style.overflow=e?"hidden":""}),(e,t)=>(l(),p("div",r,t[0]||(t[0]=[d("span",null,"This page will be displayed at the /about route.",-1)])))}});export{i as default};
